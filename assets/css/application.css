@@ -1,0 +1,102 @@
+/* color specs */
+
+.almost-black{
+  color: #242424
+}
+.bg-almost-black{
+  background-color: #242424
+}
+.white{
+   color: #ffffff
+ }
+.bg-white{
+  background-color: #ffffff;
+}
+.bodacious-blue{
+   color: #2878ff
+ }
+.bg-bodacious-blue{
+  background-color: #2878ff
+}
+.dark-blue{
+  color: #001e5a
+}
+.bg-dark-blue{
+  background-color: #001e5a
+}
+.grandiose-green{
+  color: #14c846
+}
+.bg-grandiose-green{
+  background-color: #14c846
+}
+
+#content{
+  font-family: 'Roboto', San Francisco, Helvetica, Arial;
+  height:100%;
+}
+
+a:hover, a:active, a:focus {
+  color: #14c846
+}
+
+/* margin & spacing */
+
+@media (min-width: 576px) {
+  .margin-column {
+    width: 100px !important;
+  }
+}
+
+.margin-column {
+  width: 40px;
+}
+
+@media (min-width: 576px) {
+  .frame {
+    height: 180px !important;
+    white-space: nowrap;
+  }
+  .helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+  }
+  .bitfly-logo {
+    vertical-align: middle;
+    width: 200px !important;
+  }
+}
+.frame {
+  height: 120px;
+  white-space: nowrap;
+}
+.helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+.bitfly-logo {
+  vertical-align: middle;
+  width: 150px;
+}
+
+@media (min-width: 576px) {
+  .main-chevron-down {
+    margin-bottom: 40px !important;
+  }
+}
+
+.main-chevron-down {
+  margin-bottom: 30px
+}
+
+@media (min-width: 576px) {
+  .main-chevron-up {
+    margin-top: 40px !important;
+  }
+}
+
+.main-chevron-up {
+  margin-top: 30px
+}
