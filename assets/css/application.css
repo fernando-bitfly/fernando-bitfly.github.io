@@ -1,13 +1,13 @@
 /* color specs */
 
 .almost-black{
-  color: #242424
+  color: #242424;
 }
 .bg-almost-black{
-  background-color: #242424
+  background-color: #242424;
 }
 .white{
-   color: #ffffff
+   color: #ffffff;
  }
 .bg-white{
   background-color: #ffffff;
@@ -16,19 +16,19 @@
    color: #2878ff
  }
 .bg-bodacious-blue{
-  background-color: #2878ff
+  background-color: #2878ff;
 }
 .dark-blue{
-  color: #001e5a
+  color: #001e5a;
 }
 .bg-dark-blue{
-  background-color: #001e5a
+  background-color: #001e5a;
 }
 .grandiose-green{
-  color: #14c846
+  color: #14c846;
 }
 .bg-grandiose-green{
-  background-color: #14c846
+  background-color: #14c846;
 }
 
 #content{
@@ -37,7 +37,7 @@
 }
 
 a:hover, a:active, a:focus {
-  color: #14c846
+  color: #14c846;
 }
 
 /* margin & spacing */
@@ -115,7 +115,8 @@ a:hover, a:active, a:focus {
   -o-transition: all 0.5s ease;
   -ms-transition: all 0.5s ease;
   transition: all 0.5s ease;
-  width: 10%;
+  width: 1%;
+  border-bottom: solid #242424 2px;
 }
 
 .blur:hover > img{
@@ -124,6 +125,6 @@ a:hover, a:active, a:focus {
 }
 
 .blur:hover > p{
+  width: 66%;
   border-bottom: solid greenyellow 2px;
-  width: 100%;
 }
